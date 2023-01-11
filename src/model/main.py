@@ -8,7 +8,6 @@ import mlflow
 
 # define functions
 def main(args):
-
     # enable auto logging
     mlflow.autolog()
 
