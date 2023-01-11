@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import mlflow
 
+
 # define functions
 def main(args):
     mlflow.autolog()  # enable auto logging
