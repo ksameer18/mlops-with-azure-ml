@@ -8,8 +8,7 @@ import mlflow
 
 # define functions
 def main(args):
-    # enable auto logging
-    mlflow.autolog()
+    mlflow.autolog() # enable auto logging
 
     # read in data
     df = get_csvs_df(args.training_data)
